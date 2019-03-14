@@ -1,0 +1,25 @@
+body{
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.my-name{
+    padding: 20px;
+    background-color: aquamarine;
+    color: grey;
+}
+
+ul{
+    display: block;
+    float: right;
+}
+
+li{
+    padding:8px 16px;
+    float:left;
+    width:auto;
+    border: indigo;
+    display:block;
+    outline-style: dotted;
+}
