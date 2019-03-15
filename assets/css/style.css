@@ -1,15 +1,19 @@
+
 header {
     width: 960px;
+    height: 76px;
     margin-left: auto;
     margin-right: auto;
+    background-color: white;
+    font-family: 'IBM Plex Sans', sans-serif;
 }
 .my-name{
     font-size: 20pt;
-    padding: 20px;
+    padding: 25px;
     float: left;
     display: block;
-    background-color: aquamarine;
-    color: grey;
+    background-color: teal;
+    color: white;
 }
 
 .my-picture {
@@ -23,44 +27,64 @@ ul{
     padding: 20px;
 }
 
+a {
+    text-decoration: none;
+}
+
 li{
-    padding:8px 16px;
+    padding:8px 14px;
     float:left;
     width:auto;
-    border: indigo;
     display:block;
-    outline-style: dotted;
+}
+li:hover{
+    text-decoration: underline;
+}
+a:visited, a:hover {
+    color: grey;
+}
+
+#first, #second {
+    
+    border-right-width: 1px;
+    border-right-style: groove;
+    border-right-color: #666666;
 }
 
 .sub-heading{
     font-size: 18pt;
-    padding: 20px;
-    color: aquamarine;
+    padding: 10px;
+    color: teal;
+    font-family: 'IBM Plex Sans', sans-serif;
 }
 
 .outer-content-box {
     background-image: url("../images/white-waves.png");
-    padding: auto;
-    border-style: hidden;
+    border-top-width: 2px;
+    border-top-color: grey;
+    border-style: solid;
+    padding-bottom: 50px;
+    min-height: calc(100vh - 196px);
 }
 
 .inner-content-box {
     width: 920px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 30px;
+    margin: auto;
+    margin-top: 50px;
     margin-bottom: 50px;
     background-color: white;
     padding: 20px;
     border-style: solid;
     border-color: #666666;
     border-width: 2px;
-
+    font-family: 'IBM Plex Sans', sans-serif;
 }
-
+p {
+    padding: 10px;
+}
 footer {
     background-color: #666666;
     padding: 20px;
     text-align: center;
-    margin-bottom: auto;
+    border-top: 8px solid #4aaaa5;
 }
