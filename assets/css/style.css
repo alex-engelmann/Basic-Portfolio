@@ -1,18 +1,26 @@
-body{
+header {
     width: 960px;
     margin-left: auto;
     margin-right: auto;
 }
-
 .my-name{
+    font-size: 20pt;
     padding: 20px;
+    float: left;
+    display: block;
     background-color: aquamarine;
     color: grey;
+}
+
+.my-picture {
+    float: left;
+    padding: 20px;
 }
 
 ul{
     display: block;
     float: right;
+    padding: 20px;
 }
 
 li{
@@ -22,4 +30,37 @@ li{
     border: indigo;
     display:block;
     outline-style: dotted;
+}
+
+.sub-heading{
+    font-size: 18pt;
+    padding: 20px;
+    color: aquamarine;
+}
+
+.outer-content-box {
+    background-image: url("../images/white-waves.png");
+    padding: auto;
+    border-style: hidden;
+}
+
+.inner-content-box {
+    width: 920px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    background-color: white;
+    padding: 20px;
+    border-style: solid;
+    border-color: #666666;
+    border-width: 2px;
+
+}
+
+footer {
+    background-color: #666666;
+    padding: 20px;
+    text-align: center;
+    margin-bottom: auto;
 }
